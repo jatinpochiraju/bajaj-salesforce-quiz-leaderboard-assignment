@@ -105,11 +105,17 @@ Store screenshots under `docs/screenshots/` with the following names:
 
 
 ![Tests passed](docs/screenshots/01-tests-passed.jpg)
+
 01-tests-passed
+
 ![Application run](docs/screenshots/02-app-run.jpg)
+
 02-app-run
+
 ![Validator response](docs/screenshots/03-validator-correct.png)
+
 03-validator-correct
+
 ### Sample output (latest run)
 
 ```text
