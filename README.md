@@ -112,7 +112,7 @@ Total score: 835
 Submission response: SubmitResponse[isCorrect=null, isIdempotent=null, submittedTotal=835, expectedTotal=null, message=null, regNo=2024CS101, totalPollsMade=1809, attemptCount=147]
 ```
 
- Compact run log snippet:
+ ### Compact run log snippet:
 
 ```text
 Polled indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
