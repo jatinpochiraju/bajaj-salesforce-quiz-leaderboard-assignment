@@ -85,21 +85,6 @@ Optional overrides:
 - Submission response is printed with correctness fields.
 - Some validator runs may return acknowledgement-only submit fields (for example `regNo`, `submittedTotal`, `attemptCount`) instead of correctness verdict fields.
 
-## GitHub-ready submission checklist
-
-- [ ] Public repository created with this full project.
-- [ ] `README.md` includes setup, run instructions, and assumptions.
-- [ ] Test evidence captured (`mvn test` output screenshot).
-- [ ] Final app run evidence captured with real `regNo` and submission response.
-- [ ] Code pushed with clean commit history and no secrets.
-
-### Suggested screenshot/output format
-
-Store screenshots under `docs/screenshots/` with the following names:
-
-- `docs/screenshots/01-tests-passed.png` - terminal showing `mvn test` success
-- `docs/screenshots/02-app-run.png` - terminal showing poll flow and final submit response
-- `docs/screenshots/03-validator-correct.png` - response section highlighting `isCorrect`, `submittedTotal`, and `expectedTotal`
 
 ### Screenshots
 
@@ -127,7 +112,7 @@ Total score: 835
 Submission response: SubmitResponse[isCorrect=null, isIdempotent=null, submittedTotal=835, expectedTotal=null, message=null, regNo=2024CS101, totalPollsMade=1809, attemptCount=147]
 ```
 
-Include this compact run log snippet in README or PR description:
+ Compact run log snippet:
 
 ```text
 Polled indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
